@@ -1,0 +1,16 @@
+{
+  "hash": "8668a0eddc3982845eb74061448f0d4c",
+  "result": {
+    "markdown": "---\ntitle: \"The Penguin data set explored\"\nauthor: \"Paul van Oppen\"\ndate: \"2022-11-24\"\ncategories: [R, code, analysis]\nformat:\n  html:\n    code-fold: true\n    code-summary: \"Show the code\"\nimage: \"penguins.jpg\"\n---\n\n\nIn this post we will show some plots based on the Penguins data set.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\npenguins %>%\n  ggplot(aes(x = bill_length_mm, y = bill_depth_mm)) +\n  geom_point() +\n  geom_line() +\n  facet_wrap(sex ~ species, ncol = 2)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/post with code-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
