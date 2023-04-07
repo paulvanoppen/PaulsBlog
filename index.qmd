@@ -1,0 +1,26 @@
+---
+title: "Paul van Oppen"
+subtitle: a blog by Paul van Oppen
+page-layout: full
+section-divs: false
+css: styles.css
+title-block-banner: true
+freeze: auto
+listing:
+- id: posts
+  contents: posts/**/*/index.qmd
+  type: grid
+  fields: [image, date, title]
+  sort: "date desc"
+  categories: true
+  image-height: 250px
+  page-size: 100
+---
+
+::: grid
+
+
+::: g-col-12
+# Recent posts
+:::
+:::

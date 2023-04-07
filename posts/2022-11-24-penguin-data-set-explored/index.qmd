@@ -1,0 +1,27 @@
+---
+title: "The Penguin data set explored"
+author: "Paul van Oppen"
+date: "2022-11-24"
+categories: [R, code, analysis]
+format:
+  html:
+    code-fold: true
+    code-summary: "Show the code"
+image: "penguins.jpg"
+---
+
+In this post we will show some plots based on the Penguins data set.
+
+```{r post with code, warning = FALSE, message = FALSE}
+
+library(palmerpenguins)
+library(dplyr)
+library(ggplot2)
+
+penguins %>%
+  ggplot(aes(x = bill_length_mm, y = bill_depth_mm)) +
+  geom_point() +
+  geom_line() +
+  facet_wrap(sex ~ species, ncol = 2)
+
+```

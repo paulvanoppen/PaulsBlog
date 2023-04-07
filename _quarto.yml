@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Paul van Oppen"
+  navbar:
+    background: "#eeeeee"
+    right:
+      - about.qmd
+      - text: Blog
+        href: blog.qmd
+      - icon: twitter
+        href: https://twitter.com/Uppyn
+  page-footer:
+    left: "Blog made with passion and [Quarto](https://quarto.org/), by Paul van Oppen."
+google-analytics: 363781816
+cookie-consent: true
+format:
+  html:
+    theme: styles.sccs
+      # light: cosmo
+      # dark: superhero
+    css: styles.css
+    link-external-newwindow: true
+    citations-hover: true
+    footnotes-hover: true
+    highlight-style: zenburn
+
+editor: visual
+
+execute: 
+  freeze: auto

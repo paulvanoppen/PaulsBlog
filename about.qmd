@@ -1,0 +1,21 @@
+---
+title: "About"
+comments: false
+image: "paul.jpg"
+about:
+  template: broadside
+---
+
+# About me
+
+My name is Paul van Oppen and I am an engineer. I have been in quality management for a long time. Working all of my life in the high-tech sector in Europe, China and Australia. I have a passion for data analysis and R.
+
+I write about data analysis, life (a Dutch person living in Australia), places I visit and anything else that comes into my mind.
+
+Writing a blog is a challenge for me: I am mostly not a 'wordy' person with the exception of topics that I deeply care for. Working on this blog is scary in a sense as it exposes a lot of me to the world. Some of my reasons to do so:
+
+-   Organise my mind.
+-   Learn how to write
+-   Share knowledge 
+
+Feel free to reach out to me via [mail](mailto:paulsblog@gmail.com) and subscribe to my email newsletter.

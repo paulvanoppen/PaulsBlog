@@ -1,0 +1,13 @@
+/* css styles */
+#my-profile-pic {
+  align-items: end;
+  display: grid;
+  width: 60%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Pacifico&display=swap');
+
+h1.title {
+  font-family: "Pacifico";
+  font-size: 30px;
+}
